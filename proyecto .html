@@ -1,0 +1,136 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Bienvenida</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Banner -->
+    <header>
+        <h1>THEEMO</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#about">Sobre Nosotros</a>
+            <a href="#services">Servicios</a>
+            <a href="#reviews">Reseñas</a>
+            <a href="register.html">Registro</a>
+            <a href="login.html" id="login-link">Iniciar Sesión</a>
+            <span id="user-info"></span>
+        </nav>
+    </header>
+
+    <!-- Sección de bienvenida -->
+    <section class="welcome">
+        <h2>Bienvenidos a nuestra clínica terapeutica</h2>
+        <p>Proporcionamos servicios terapeuticos confiables para cuidar de tu salud y bienestar emocional.</p>
+        <div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGWajI4ric/1MWmyFXzukPeY-0LGrhOZg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGWajI4ric&#x2F;1MWmyFXzukPeY-0LGrhOZg&#x2F;view?utm_content=DAGWajI4ric&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Colorful Brain Digital World Technology Logo</a> 
+    </section>
+
+    <!-- Sección sobre la empresa -->
+    <section id="about">
+        <h2>Sobre Nosotros <i class="fas fa-info-circle"></i></h2>
+        <p>Somos una clínica terapeutica con años de experiencia, dedicada a ofrecer servicios de tratamiento emocional personalizados con tecnología avanzada.</p>
+        <img src="https://images.squarespace-cdn.com/content/v1/5b88a36b96d455372e860eb5/1546545564353-N0QZ8RHTC7F01809845V/unnamed+%282%29.jpg?format=750w"; style=";width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"alt="Equipo Médico">
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="services">
+        <h2>Servicios <i class="fas fa-stethoscope"></i></h2>
+        <ul>
+            <li>Consulta General - $50.000</li>
+            <li>Exámenes de psicoemocionales- $100.000</li>
+            <li>Revisiones Especializadas - $150.000</li>
+        </ul>
+    </section>
+
+    <!-- Sección de reseñas de clientes -->
+    <section id="reviews">
+        <h2>Reseñas de Clientes <i class="fas fa-star"></i></h2>
+        <p>laura martinez@gmail.com:"El mejor cuidado médico que he recibido, 100% recomendado."</p>
+        <p>pedro alvarez@gmail.com:"Atención rápida, profesional y muy humana."</p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Conéctate con nosotros:</p>
+        <a href="#"><i class="fab fa-facebook"></i> Facebook</a> |
+        <a href="#"><i class="fab fa-twitter"></i> Twitter</a> |
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Registro de Usuario</h1>
+    </header>
+    <form id="register-form">
+        <label>Nombres:</label>
+        <input type="text" id="firstName" placeholder="Juan" required>
+        
+        <label>Apellidos:</label>
+        <input type="text" id="lastName" placeholder="Pérez" required>
+        
+        <label>Correo Electrónico:</label>
+        <input type="email" id="email" placeholder="correo@ejemplo.com" required>
+        
+        <label>Contraseña:</label>
+        <input type="password" id="password" placeholder="********" required>
+        
+        <label>Género:</label>
+        <select id="gender">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select>
+        
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Iniciar Sesión</h1>
+    </header>
+    <form id="login-form">
+        <label>Correo Electrónico:</label>
+        <input type="email" id="login-email" placeholder="correo@ejemplo.com" required>
+        
+        <label>Contraseña:</label>
+        <input type="password" id="login-password" placeholder="********" required>
+        
+        <button type="submit">Ingresar</button>
+    </form>
+</body>
+</html>
